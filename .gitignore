@@ -1,0 +1,51 @@
+# Ignorar arquivos do PlatformIO dentro da pasta sensor
+sensor/.pio/
+sensor/.pioenvs/
+sensor/.piolibdeps/
+sensor/.clang_complete
+sensor/.gcc-flags.json
+sensor/.ccls-cache/
+
+# Arquivos e pastas do VSCode
+.vscode/
+*.code-workspace
+
+# Arquivos do Wokwi
+*.wokwi
+*.wokwi.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Python - se estiver fora da pasta sensor
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ambientes virtuais Python
+venv/
+ENV/
+env/
+.venv/
+
+# Checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos temporários
+*.log
+*.bak
+*.tmp
+
+# Arquivos CSV ou dados gerados (opcional)
+*.csv
+
+# Builds de pacotes Python
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+*.whl
