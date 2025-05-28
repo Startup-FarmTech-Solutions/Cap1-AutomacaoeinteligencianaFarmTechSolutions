@@ -273,7 +273,7 @@ O Random Forest foi escolhido como modelo final pois apresentou o melhor equilí
 
 ---
 
-### ✅ Considerações Finais
+### Considerações Finais
 
 Essa abordagem de testar múltiplos algoritmos garante uma escolha **baseada em dados**, e não apenas em suposições teóricas. Além disso, o pipeline criado é facilmente reutilizável e extensível para novas versões do sistema.
 
