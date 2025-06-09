@@ -78,6 +78,14 @@ Projeto de automação agrícola inteligente, com sensores integrados no ESP32, 
 ### 🔌 Esquema do Circuito
 ![Esquema do Circuito](./circuito/circuito.png)
 
+| Variável                      | Sensor no Wokwi     | Interface                |
+| ----------------------------- | ------------------- | ------------------------ |
+| temperatura (ar)              | DHT22, DS18B20      | digital                  |
+| umidade (ar)                  | DHT22               | digital                  |
+| luminosidade                  | Photoresistor (LDR) | analógico (`analogRead`) |
+| irrigação\_ativa              | relé/control GPIO   | digital                  |
+| nitrogenio, fosforo, potassio | npk-sensor          | analógico ou UART        |
+
 ---
 
 ## 👨‍💻 Código ESP32
