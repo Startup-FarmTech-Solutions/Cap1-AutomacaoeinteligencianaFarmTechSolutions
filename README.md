@@ -1,4 +1,4 @@
-# Cap1-AutomacaoeinteligencianaFarmTechSolutions
+# Cap1-Automacao e Inteligencia na Farm Tech Solutions
 Projeto de automação agrícola inteligente, com sensores integrados no ESP32, display LCD, banco de dados e um modelo preditivo de Machine Learning utilizando Scikit-learn. A visualização dos dados é feita através de um dashboard interativo com Streamlit.
 
 Perfeito! Aqui está o modelo completo e personalizado no mesmo padrão que você pediu, já adaptado para a **FASE 4 – Data Science em Ação** do seu projeto **FarmTech Solutions**.
